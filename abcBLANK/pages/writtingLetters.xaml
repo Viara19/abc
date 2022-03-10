@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             x:Class="abcBLANK.pages.writtingLetters"
+             BackgroundColor="#9D9D9D">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Очертай внимателно линиите на картинката" TextColor="Black"
+                   FontSize="20"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Center"></Label>
+            <Image Source="Resources/drawable/a.png" x:Name="image"/>
+            <skia:SKCanvasView x:Name="canvasView"
+                                   EnableTouchEvents="True"
+                                   PaintSurface="OnPainting" />
+
+            <Grid ColumnDefinitions="Auto, Auto,Auto" RowDefinitions="Auto,Auto">
+                <Button Text="Друга картинка" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" HorizontalOptions="Start"></Button>
+                <Button Text="Изчисти" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked_1" HorizontalOptions="Center"></Button>
+                <Button Text="Провери" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked_2" HorizontalOptions="End"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

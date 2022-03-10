@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcBLANK.pages.help">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="За да използвате приложението, първо натиснете бутона СТАРТ. Той ще ви прехвърли в страницата с указания как да държите правилно химикал. Разгледайте картинките и се упражнявайте да държите правилно химикала!" FontSize="20" TextColor="Black"></Label>
+            <Label Text="Натиснете бутон ДА ПОПИШЕМ! Започнете изписване с пръст върху екрана на ръкописните български букви!" FontSize="20" TextColor="Black"></Label>
+            <Label Text="Вече знаете как да изписвате красиво ръкописните букви!" FontSize="20" TextColor="Black"></Label>
+            <Label Text="Може да се върнете назад с бутон " FontSize="20" TextColor="Black"></Label>
+             <Label Text="/Приложението е създадено с учебна цел и няма комерсиално предназначение/."
+                   FontSize="25"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="Black"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

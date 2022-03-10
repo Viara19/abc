@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcBLANK.pages.pen"
+             BackgroundColor="#9D9D9D">
+             
+    <ContentPage.Content>
+            <ScrollView HeightRequest="200">
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+            <Label Text="Ако държите правилно химикала, ще изписвате красиво буквите и няма да се изморява ръката ви. Затова предлагам два начина да се научите как да хванете правилно химикала:
+            1. Представете си, че играете на Дартс" FontSize="20"></Label>
+            <Image Source="Resources.drawable/himikal_darts" VerticalOptions="Center"></Image>
+                <Label  Text="А сега се приготви за Дартс, но не със стреличка, а с химикал – лесно е!" TextColor="Black" FontSize="20"></Label>
+                <Label Text=" Ако с Дартс-а ти е трудно, пробвай това:" FontSize="20" TextColor="Black"></Label>
+                <Label Text=" Сгъни салфетка и я хвани само с кутрето и безимения пръст, като на картинката:"
+                   FontSize="20"
+                       TextColor="Black"
+                   VerticalOptions="Center"></Label>
+                <Image Source="Resources.drawable/himikal_napkin" VerticalOptions="Center" ></Image>
+                <Label Text="Със свободните пръсти хвани химикала – не можеш да сбъркаш!" TextColor="Black"
+                   FontSize="20"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" ></Label>
+            <Button Text="Да попишем!" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcBLANK.Page1"
+             BackgroundColor ="SaddleBrown"    
+             >
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Здравей!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Italic"></Label>
+            <Label Text="Искаш да се научиш да пишеш? Тогава си на правилното място! Натисни старт и да започваме!" HorizontalOptions="Center" TextColor="White" FontSize="20"></Label>
+                <Button Text="Старт" Clicked="Button_Clicked"></Button>
+            <Button Text="Помощ" Clicked="Button_Clicked_1"></Button> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
